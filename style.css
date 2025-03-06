@@ -3,12 +3,12 @@
 }
 
 .container {
-    border: solid 1px rgb(247, 231, 247) ;
+    border: solid 1px  rgb(247, 231, 247);
     padding: 3%;
     margin: 20px auto;
-    width: 60%;
+    width: 70%;
     display: flex;
-    height: 600px;
+    height: 620px;
     background-color: rgb(247, 231, 247);
     font-size: 15px;
     font-family: 'poppins', sans-serif;
@@ -18,9 +18,10 @@
 
 .left-side {
     width: 600px;
-    height: 610px;
+    height: 621px;
     border-right: solid 0.1px rgb(204, 188, 204);
     padding-right: 45px;
+    
     
 
 }
@@ -40,10 +41,11 @@
 
 .right-side {
     width: 600px;
-    height: 550px;
+    height: 561px;
     padding: 30px;
     font-family: 'poppins', sans-serif;
     padding-left: 45px;
+    
     
     
 }
@@ -63,23 +65,22 @@ h2 {
 
 #names {
     display: flex;
-    gap: 1px;
+    gap: 40px;
 }
 
-.name {
-    display: block;
-}
+
 
 #names input {
-    width: 150px;
+    width: 135px;
     margin-top: 8px;
     margin-bottom: 10px;
     font-family: 'poppins', sans-serif;
+    display: block;
     
 }
 
 .inputs {
-    width: 322px;
+    width: 324px;
     margin-top: 8px;
     margin-bottom: 10px;
     font-family: 'poppins', sans-serif;
@@ -96,7 +97,7 @@ h2 {
 .fa-eye {
     position: absolute;
     top: 38px;
-    right: 10px;
+    right: 75px;
     color: rgb(100, 94, 94);
 }
 
