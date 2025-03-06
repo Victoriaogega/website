@@ -3,7 +3,7 @@
 }
 
 .container {
-    border: solid 1px rgb(247, 231, 247);
+    border: solid 1px rgb(247, 231, 247) ;
     padding: 3%;
     margin: 20px auto;
     width: 60%;
@@ -18,9 +18,10 @@
 
 .left-side {
     width: 600px;
-    height: 600px;
+    height: 610px;
     border-right: solid 0.1px rgb(204, 188, 204);
     padding-right: 45px;
+    
 
 }
 
@@ -39,10 +40,12 @@
 
 .right-side {
     width: 600px;
-    height: 350px;
+    height: 550px;
     padding: 30px;
     font-family: 'poppins', sans-serif;
     padding-left: 45px;
+    
+    
 }
 
 h2 {
@@ -76,7 +79,7 @@ h2 {
 }
 
 .inputs {
-    width: 340px;
+    width: 322px;
     margin-top: 8px;
     margin-bottom: 10px;
     font-family: 'poppins', sans-serif;
@@ -98,7 +101,7 @@ h2 {
 }
 
 #button {
-    width: 356px;
+    width: 337px;
     height: 28px;
     background-color: rgb(185, 21, 185);
     margin-top: 0%;
