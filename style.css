@@ -72,6 +72,7 @@ h2 {
     margin-top: 8px;
     margin-bottom: 10px;
     font-family: 'poppins', sans-serif;
+    
 }
 
 .inputs {
@@ -93,6 +94,7 @@ h2 {
     position: absolute;
     top: 38px;
     right: 10px;
+    color: rgb(100, 94, 94);
 }
 
 #button {
@@ -200,4 +202,7 @@ h2 {
     background-color: white;
     border-radius: 5px;
     color: black;
+}
+label{
+    color: rgb(66, 60, 60);
 }
