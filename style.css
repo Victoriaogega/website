@@ -1,6 +1,7 @@
-.form{
-   background-color: rgb(247, 231, 247);
+.form {
+    background-color: rgb(247, 231, 247);
 }
+
 .container {
     border: solid 1px rgb(247, 231, 247);
     padding: 3%;
@@ -19,6 +20,7 @@
     width: 500px;
     height: 600px;
     border-right: solid 0.1px rgb(204, 188, 204);
+    padding-right: 45px;
 
 }
 
@@ -36,10 +38,11 @@
 }
 
 .right-side {
-    width: 400px;
+    width: 600px;
     height: 350px;
     padding: 30px;
     font-family: 'poppins', sans-serif;
+    padding-left: 45px;
 }
 
 h2 {
@@ -102,6 +105,12 @@ h2 {
     border-radius: 3px;
     color: white;
     font-family: 'poppins', sans-serif;
+    cursor: pointer;
+}
+
+#button:hover {
+    color: black;
+    background-color: rgb(184, 20, 134);
 }
 
 #account {
@@ -109,6 +118,7 @@ h2 {
     margin-top: 7px;
     margin-bottom: 5%;
     font-family: 'poppins', sans-serif;
+
 }
 
 .sign-in {
@@ -122,6 +132,7 @@ h2 {
     margin: 20px auto;
     text-align: center;
     font-size: 15px;
+    font-weight: normal;
 }
 
 #lines:before {
@@ -157,7 +168,7 @@ h2 {
     width: 50px;
     height: 25px;
     padding-left: 25px;
-    padding-bottom: 3px;
+    padding-bottom: 0px;
     background-color: white;
     border-radius: 5px;
 
@@ -166,8 +177,8 @@ h2 {
 #svg {
     x: 0px;
     y: 0px;
-    width: 28px;
-    height: 28;
+    width: 24px;
+    height: 24px;
 }
 
 .fa-facebook-f {
@@ -183,7 +194,7 @@ h2 {
 .fa-apple {
     border: 1px solid white;
     width: 50px;
-    height: 29px;
+    height: 26px;
     padding-left: 30px;
     padding-top: 5px;
     background-color: white;
