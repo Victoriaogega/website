@@ -3,7 +3,7 @@
 }
 
 .container {
-    border: solid 1px  rgb(247, 231, 247);
+    border: solid 1px  rgb(247, 231, 247) ;
     padding: 3%;
     margin: 20px auto;
     width: 70%;
@@ -21,6 +21,7 @@
     height: 621px;
     border-right: solid 0.1px rgb(204, 188, 204);
     padding-right: 45px;
+    
     
     
 
@@ -48,6 +49,7 @@
     
     
     
+    
 }
 
 h2 {
@@ -71,19 +73,23 @@ h2 {
 
 
 #names input {
-    width: 135px;
+    width: 170px;
     margin-top: 8px;
     margin-bottom: 10px;
     font-family: 'poppins', sans-serif;
     display: block;
+    border: none;
+    border-radius: 3px;
     
 }
 
 .inputs {
-    width: 324px;
+    width: 390px;
     margin-top: 8px;
     margin-bottom: 10px;
     font-family: 'poppins', sans-serif;
+    border-radius: 3px;
+    border: none;
 }
 
 .pass {
@@ -97,12 +103,12 @@ h2 {
 .fa-eye {
     position: absolute;
     top: 38px;
-    right: 75px;
+    right: 53px;
     color: rgb(100, 94, 94);
 }
 
 #button {
-    width: 337px;
+    width: 400px;
     height: 28px;
     background-color: rgb(185, 21, 185);
     margin-top: 0%;
@@ -164,7 +170,7 @@ h2 {
 
 .icons {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     padding-left: 40px;
     font-size: 20px;
 }
@@ -172,9 +178,9 @@ h2 {
 .google {
     border: 1px solid white;
     width: 50px;
-    height: 25px;
+    height: 29px;
     padding-left: 25px;
-    padding-bottom: 0px;
+    padding-top: 2px;
     background-color: white;
     border-radius: 5px;
 
