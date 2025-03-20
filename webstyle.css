@@ -493,28 +493,39 @@ margin-left: 5%;
 }
 .achievements{
     display: flex;
-    margin-left: 3%;
+    margin-left: 4%;
     gap: 5%;
     
 }
 .achievements p{
     color: white;
+    background: rgba(189, 184, 184, 0.5);
+    font-size: 80%;
+    
+   
 }
 .achievements h4{
     color: white;
     padding-top: 5%;
+    background: rgba(189, 184, 184, 0.5);
 }
 .blog{
-background-image: url(image/download.jpeg);
-margin-left: 10%;
+background-image:  url(image/phone.jpeg);
+padding-left: 7%;
+ padding-right: 7%;
+ 
 }
 
 .comment{
  background-image: url(image/download\ \(5\).jpeg);
+ padding-left: 7%;
+ padding-right: 7%;
  
 }
 .moving{
-  background-image: url(image/offloading.jpeg); 
+  background-image: url(image/offloading.jpeg);
+  padding-left: 7%;
+  padding-right: 7%; 
 }
 
 .impacts{
