@@ -362,7 +362,7 @@ a {
     overflow: visible;
     left: 40%;
     z-index: 1;
-    top: 470%;
+    top: 455%;
     font-size: 250%;
 
 }
@@ -404,7 +404,7 @@ a {
 }
 
 .form_input .input {
-    width: 50%;
+    width: 30%;
     display: flex;
     gap: 0%;
     align-items: center;
@@ -613,7 +613,7 @@ a {
 .impacts {
 
     display: flex;
-    gap: 20%;
+    gap: 15%;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-top: 5%;
@@ -628,10 +628,12 @@ a {
 }
 
 .impacts button {
-    width: 15%;
+    width: 12%;
     color: white;
     background-color: black;
     border: none;
+    padding-right: 15%;
+
 }
 
 .lists {
@@ -639,7 +641,7 @@ a {
     background-color: black;
     margin-left: 5%;
     padding-top: 5%;
-    padding-left: 30%;
+    padding-left: 20%;
     padding-bottom: 10%;
     margin-top: 0%;
     list-style-type: none;
